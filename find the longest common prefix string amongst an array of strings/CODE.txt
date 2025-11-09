@@ -1,0 +1,21 @@
+# Example 1
+words1 = ["flower", "flow", "flight"]
+
+prefix = words1[0]
+for word in words1:
+    while not word.startswith(prefix):
+        prefix = prefix[:-1]
+
+print("Example 1:", '"' + prefix + '"')
+
+# Example 2
+words2 = ["dog", "racecar", "car"]
+
+prefix = words2[0]
+for word in words2:
+    while not word.startswith(prefix):
+        prefix = prefix[:-1]
+        if prefix == "":
+            break
+
+print("Example 2:", '"' + prefix + '"')
