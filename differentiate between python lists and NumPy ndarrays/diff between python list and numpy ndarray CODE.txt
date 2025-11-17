@@ -1,0 +1,19 @@
+import numpy as np
+
+# Python List
+py_list = [1, 2, 3]
+print("Python List:", py_list)
+
+# NumPy Array
+np_array = np.array([1, 2, 3])
+print("NumPy ndarray:", np_array)
+
+# Difference in data type
+print("\nDATA TYPE DIFFERENCE:")
+print("Python List allows different types:", [type(x) for x in py_list])
+print("NumPy Array has single data type:", np_array.dtype)
+
+# Difference in operations
+print("\nOPERATION DIFFERENCE:")
+print("Python List * 2 (repeats list):", py_list * 2)
+print("NumPy Array * 2 (multiplies each element):", np_array * 2)

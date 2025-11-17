@@ -1,0 +1,9 @@
+def mySqrt(x):
+    i = 0
+    while i * i <= x:
+        i += 1
+    return i - 1
+
+# Test
+print(mySqrt(4))   # 2
+print(mySqrt(8))   # 2
